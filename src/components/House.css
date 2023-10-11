@@ -1,0 +1,21 @@
+button3 {
+    margin: 0 auto;
+    border-radius: 0;
+    border: 0 transparent;
+    padding: 0em 0em;
+    background-color: transparent;
+    color: #058576;
+    font-size: 48px;
+    cursor: pointer;
+    /* transition: border-color 0.25s; */
+    right: 36px;
+    top: 26px;
+    position: absolute;
+  }  
+  button3:hover {
+    background: #0af8dc;
+  } 
+  button3:focus,
+  button3:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  } 

@@ -1,0 +1,328 @@
+[
+    {
+        
+        "name": "Chicken Pot Pie",
+        "info": {
+            "img_url": "https://tastesbetterfromscratch.com/wp-content/uploads/2022/10/Chicken-Pot-Pie-1.jpg",
+            "description": "Classic Chicken Pot Pie Recipe",
+            "ingredients": [
+                "One 2- to 3-pound chicken fryer, cut up",
+                "3 celery stalks",
+                "3 medium carrots, peeled",
+                "1 large yellow onion",
+                "4 tablespoons (1/2 stick) butter",
+                "1/4 cup all-purpose flour",
+                "2 cups low-sodium chicken broth\u00a0or stock",
+                "1 chicken bouillon cube",
+                "1/4 cup white wine, optional",
+                "1/2 cup frozen peas",
+                "1 cup heavy cream",
+                "2 sprigs fresh thyme",
+                "1 teaspoon kosher salt, or more as needed",
+                "Black pepper",
+                "1/2 recipe Thyme Pastry, recipe follows",
+                "3 cups all-purpose flour",
+                "1 teaspoon salt",
+                "1 1/2 cups (3 sticks) cold butter",
+                "1 egg",
+                "5 tablespoons cold water",
+                "1 tablespoon distilled white vinegar",
+                "1 sprig fresh thyme leaves"
+            ],
+            "allergens": 
+            [
+                "wheat",
+                "dairy"
+            ],
+            "time": 2,
+            "complexity": "intermediate",
+            "steps": [
+                {
+                "num": 1,
+                "title": "Step 1",
+                "desc": "For the chicken: Start by putting the chicken in a pot and covering it with water. Bring the water to a boil, and then reduce the heat to low. Simmer for 45 minutes, and then remove the chicken from the pot. Set the chicken aside to cool briefly."
+                },
+                {
+                "num": 2,
+                "title": "Step 2",
+                "desc": "Shred the chicken with 2 forks, reserving the bones. For the stock, return the bones to the pot and boil for 20 minutes. Remove the bones from the pot and discard."
+                },
+                {
+                    "num": 3,
+                    "title": "Step 3",
+                    "desc":"For the pot pie: When you're ready to use the Thyme Pastry, remove from the freezer and allow it to sit on the counter to thaw slightly, about 20 minutes. Preheat the oven to 400 degrees F."
+                },
+                {
+                    "num": 4,
+                    "title": "Step 4",
+                    "desc":"Begin by finely dicing the vegetables. Slice the celery stalks into narrow strips, then slice in the other direction to create a fine dice. Repeat this process with the carrots, and the onion."
+                },
+                {
+                    "num": 5,
+                    "title": "Step 5",
+                    "desc":"Melt the butter in a large pot or Dutch oven over medium heat. Add the onion, carrots and celery. Saute until the vegetables start to turn translucent, a couple of minutes."
+                },
+                {
+                    "num": 6,
+                    "title": "Step 6",
+                    "desc":"Add 2 cups of the shredded chicken and stir to combine. Sprinkle the flour evenly over the vegetables and chicken, and stir to combine. Cook for a couple of minutes, stirring gently."
+                },
+                {
+                    "num": 7,
+                    "title": "Step 7",
+                    "desc":"Pour in the chicken broth, stirring constantly. Stir in the bouillon cube and wine if using. The flour will combine with the chicken to create a delicious gravy. Next, add the peas."
+                },
+                {
+                    "num": 8,
+                    "title": "Step 8",
+                    "desc":"Pour in the cream and stir. Allow the mixture to cook over low heat, thickening gradually, about 4 minutes. Season with the thyme, salt and pepper, and remove from the heat. Taste and adjust the seasonings as needed. Be sure it's adequately salted!"
+                },
+                {
+                    "num": 9,
+                    "title": "Step 9",
+                    "desc":"Pour the chicken mixture into a deep pie pan or small casserole dish."
+                },
+                {
+                    "num": 10,
+                    "title": "Step 10",
+                    "desc":"Roll out the pastry so that it's 1 inch larger than the pan. Place the crust on top of the chicken mixture and cut small slits in the top. Press the crust gently into the sides of the dish to seal. I don't worry about making a perfect edge on my chicken pot pie because a) it looks more rustic and b) I'm lazy, hungry and I want to eat."
+                },
+                {
+                    "num": 11,
+                    "title": "Step 11",
+                    "desc":"Bake until the crust is golden brown and the filling is bubbly, about 30 minutes. Cool for 10 minutes before serving."
+                },
+                {
+                    "num": 12,
+                    "title": "Step 12",
+                    "desc":"To freeze: Allow the filling to cool completely then top with the crust. Cover with plastic wrap or aluminum foil and place in the freezer."
+                },
+                {
+                    "num": 13,
+                    "title": "Step 13",
+                    "desc":"To cook from frozen: Remove the pot pie from the freezer, brush with egg wash (1 egg mixed with 2 tablespoons water or cream) and place directly in a 375-degree F oven and bake until lightly browned and bubbly, 30 to 45 minutes."
+                },
+                {
+                    "num": 14,
+                    "title": "Step 14",
+                    "desc":"For the thyme pastry: Combine the flour and salt in a large bowl. Using pastry cutter, gradually work the butter into the flour until the mixture resembles tiny pebbles. This step should take 3 or 4 minutes."
+                },
+                {
+                    "num": 15,
+                    "title": "Step 15",
+                    "desc":"Lightly beat the egg with a fork, and then add it to the mixture. Next, add in the cold water and vinegar. Stir the mixture together until it's just combined, and then remove half the dough from the bowl. (Dividing the dough in half results in two pretty generous pie crusts. If you desire a thinner crust, you may divide the dough into three crusts.)"
+                },
+                {
+                    "num": 16,
+                    "title": "Step 16",
+                    "desc":"Place in a large plastic bag (do not seal) and slightly flatten with a rolling pin. This makes it much easier to roll out the crust later. After flattening, seal the bag tightly."
+                },
+                {
+                    "num": 17,
+                    "title": "Step 17",
+                    "desc":"Repeat with the other half of the dough and place the plastic bags in the freezer. I like to make several batches of pie crust at a time so I always have a crust ready to go."
+                },
+                {
+                    "num": 18,
+                    "title": "Step 18",
+                    "desc":"For recipes other than this pot pie, remove from the bag and place on a lightly floured surface. With a rolling pin, begin rolling the dough from the center, outward. Be gentle and patient; it'll take a little time to get the dough completely rolled out."
+                },
+                {
+                    "num": 19,
+                    "title": "Step 19",
+                    "desc":"If you think the bottom is really sticking to the surface below, use a nice, sharp spatula to loosen it and sprinkle some extra flour on top. Then flip it over to finish rolling. Remember to roll from the center in single, outward strokes; no back-and-forth rolling."
+                },
+                {
+                    "num": 20,
+                    "title": "Step 20",
+                    "desc":"Again with a spatula, loosen and lift the pie crust and carefully lay it over a pie pan. Using your hand, lightly form the crust so that it fits inside the pan and overlaps the edges."
+                },
+                {
+                    "num": 21,
+                    "title": "Step 21",
+                    "desc":"Because it's quick and easy, I just tuck the excess dough under itself above the rim. Then you can apply whatever decorative effects that you like to the edge. Or you can leave it plain if you'd like! Just tell yourself it's more rustic that way!"
+                },
+                {
+                    "num": 22,
+                    "title": "Step 22",
+                    "desc":"Fill the pie crust with filling and bake according to the pie recipe's directions. Or, for a pre-baked crust, fill with pie weights (or pinto beans placed on aluminum foil) and bake at 400 degrees F until golden, about 10 minutes."
+                }
+            ]
+        }
+    },
+    {
+        "name": "Chicken Soup",
+        "info": {
+            "img_url": "https://www.allrecipes.com/thmb/77kl01rIzQSi5y_cmKfCwhjD8-0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/279747-25fb0c6470c8442d949e80fa8d9ff9c2.jpg",
+            "description":"Simple chicken soup",
+            "ingredients": [
+                "1 boneless chicken breast half, cooked and diced",
+                "2 cups water",
+                "2 carrots, chopped",
+                "1 zucchini, diced",
+                "1 clove garlic, minced",
+                "1/2 teaspoon chicken broth base"
+            ],
+            "allergens": [],
+            "time": 15,
+            "complexity": "simple",
+            "steps": [
+                {
+                    "num": 1,
+                    "title": "Step 1",
+                    "description": "Put cooked chicken meat and water in a large pot and bring to a boil."
+                },
+                {
+                    "num": 2,
+                    "title": "Step 2",
+                    "description": "Add the carrots, zucchini and garlic and simmer all together for 5 to 10 minutes."
+                },
+                {
+                    "num": 3,
+                    "title": "Step 3",
+                    "description": "Add the chicken broth and simmer for an additional 5 minutes. Serve."
+                }
+            ]
+        }
+    },
+    {
+        "name": "Meat Sauce for Spaghetti",
+        "info": {
+            "img_url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F682593.jpg&q=60&c=sc&orient=true&poi=auto&h=512",
+            "ingredients": [
+                "2 tablespoons olive oil",
+                "1/2 cup minced onion",
+                "1 clove garlic, minced",
+                "1/2 cup minced celery",
+                "2 tablespoons butter",
+                "1 pound lean ground beef",
+                "1/2 teaspoon white sugar",
+                "1 teaspoon salt",
+                "1/2 teaspoon dried mint",
+                "6 ounces fresh chopped mushrooms",
+                "1 (6 ounce) can tomato paste",
+                "2 (10.5 ounce) cans beef broth",
+                "2 teaspoons dried basil",
+                "1 pound spaghetti",
+                "1 teaspoon olive oil",
+                "3 tablespoons salt",
+                "1 tablespoon chopped fresh parsley, for garnish",
+                "1/4 cup grated Romano cheese"
+            ],
+            "allergens": [
+                "wheat",
+                "dairy"
+            ],
+            "time": 45,
+            "complexity": "simple",
+            "steps": [
+                {
+                    "num": 1,
+                    "title": "Step 1",
+                    "desc": "In a large skillet, warm olive oil over low heat; saute onion, garlic and celery until onion is transparent."
+                },
+                {
+                    "num": 2,
+                    "title": "Step 2",
+                    "desc": "Stir in butter and increase heat to medium; brown beef until no longer pink. Mix in sugar, 1 teaspoon salt, mint and mushrooms; lower heat and stir for about 3 minutes."
+                },
+                {
+                    "num": 3,
+                    "title": "Step 3",
+                    "desc": "In a large bowl, combine tomato paste and broth; pour liquid and basil to pot. Simmer over very low heat for about 2 hours, stirring occasionally."
+                },
+                {
+                    "num": 4,
+                    "title": "Step 4",
+                    "desc": "Bring a large pot of water to a vigorous boil with 3 tablespoons salt and 1 teaspoon olive oil.  Slip spaghetti into water holding on to ends until strands soften a bit.  Cook over high heat for 7 to 8 minutes only.  When properly cooked, raw taste should be gone but still have a firm texture."
+                },
+                {
+                    "num": 5,
+                    "title": "Step 5",
+                    "desc": "When ready to serve, combine pasta with meat sauce; serve on a warmed platter or bowl topped with parsley and Romano cheese."
+                }
+            ]
+        }
+    },
+    {
+        "name": "French Toast",
+        "info": {
+            "img_url": "https://www.allrecipes.com/thmb/VjVrkCVYaalH2JXogJMoFQ_a-zI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7016-french-toast-mfs-010-0e1007bf0b47433abe91f2f0c74e5a27.jpg",
+            "ingredients": [
+                "6 thick slices bread",
+                "2 eggs",
+                "2/3 cup milk",
+                "1/4 teaspoon ground cinnamon (optional)",
+                "1/4 teaspoon ground nutmeg (optional)",
+                "1 teaspoon vanilla extract (optional)",
+                "salt to taste"
+            ],
+            "allergens": [
+                "egg",
+                "dairy"
+            ],
+            "time": 1,
+            "complexity": "simple-intermediate",
+            "steps": [
+                {
+                    "num": 1,
+                    "title": "Step 1",
+                    "description": "Beat together egg, milk, salt, desired spices and vanilla."
+                },
+                {
+                    "num": 2,
+                    "title": "Step 2",
+                    "description": "Heat a lightly oiled griddle or skillet over medium-high heat."
+                },
+                {
+                    "num": 3,
+                    "title": "Step 3",
+                    "description": "Dunk each slice of bread in egg mixture, soaking both sides.  Place in pan, and cook on both sides until golden.  Serve hot."
+                }
+            ]
+        }
+    },
+    {
+        "name": "Pork Chops Over Rice",
+        "info": {
+            "img_url": "https://www.allrecipes.com/thmb/VjVrkCVYaalH2JXogJMoFQ_a-zI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7016-french-toast-mfs-010-0e1007bf0b47433abe91f2f0c74e5a27.jpg",
+            "ingredients": [
+                "4 slices bacon",
+                "3 (6 ounce) pork chops",
+                "salt and ground black pepper to taste",
+                "1 cup rice",
+                "1/2 cup diced onion",
+                "1 tablespoon minced garlic",
+                "2 cups chicken broth",
+                "1 teaspoon cayenne pepper",
+                "1/2 teaspoon dried rosemary",
+                "1/2 teaspoon dried thyme"
+            ],
+            "allergens": [],
+            "time": 1,
+            "complexity": "intermediate",
+            "steps": [
+                {
+                    "num": 1,
+                    "title": "Step 1",
+                    "description": "Cook bacon in a large skillet over medium heat until crisp, about 10 minutes. Remove the bacon slices to a plate lined with paper towels to cool, retaining bacon drippings in the skillet. Crumble the cooled bacon."
+                },
+                {
+                    "num": 2,
+                    "title": "Step 2",
+                    "description": "Lay pork chops into the reserved bacon drippings in the skillet; season with salt and black pepper. Cook pork chops until completely browned, 3 to 5 minutes. Remove pork chops to the paper towel-lined plate."
+                },
+                {
+                    "num": 3,
+                    "title": "Step 3",
+                    "description": "Stir rice, onion, and garlic into the drippings remaining in the skillet. Cook and stir until the onions are tender and the rice is slightly browned, 5 to 7 minutes. Pour chicken broth over the rice mixture; add crumbled bacon and cayenne pepper."
+                },
+                {
+                    "num": 4,
+                    "title": "Step 4",
+                    "description": "Bring the mixture to a boil. Return the pork chops to the skillet. Sprinkle rosemary and thyme over the pork chops. Reduce heat to medium-low and cook at a simmer until the broth is absorbed into the rice and the pork chops are no longer pink in the middle, about 20 minutes."
+                }
+            ]
+        }
+    }
+]
