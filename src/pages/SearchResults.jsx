@@ -49,7 +49,7 @@ function SearchResults(){
                 </button4> */}
                 <div className="container">
                         {filteredData?.map((item) => (
-                                <Link to={`/recipe/${item.name}`}>
+                                <Link to={`/results/recipe/${item.name}`}>
                                 <div className="card">
                                         <p><h5 className="card-title">{item.name}</h5>
                                         <img className="card-img-top" src={item.info.img_url} alt="" /></p>

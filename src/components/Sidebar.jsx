@@ -17,6 +17,7 @@ export default props => {
       <a className="menu-item" href="/favorites">
         Favorites
       </a> */}
+      
     </Menu>
   );
 };

@@ -92,9 +92,9 @@ function Recipe(){
     return ( 
         <>
         <House></House>
-        <button2 type="submit" onClick={handleClick} style={{ position: 'fixed', right: '175px' }}>
+        {/* <button2 type="submit" onClick={handleClick} style={{ position: 'fixed', right: '175px' }}>
                         Back to Search Results
-        </button2>
+        </button2> */}
         <Sidebar></Sidebar>
         <br></br>
         <h1>{title}</h1>
