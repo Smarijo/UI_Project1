@@ -38,7 +38,7 @@ function SearchResults(){
                     <br></br>
                     <Title> </Title> 
                     <br></br>
-                    <button2 type="submit" onClick={handleClick}>
+                    <button2 type="submit" onClick={handleClick} style={{ position: 'absolute', right: '175px'}}>
                         Back to Search
                     </button2>
                     <br></br>
