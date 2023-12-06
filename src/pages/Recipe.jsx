@@ -4,7 +4,6 @@ import values from '../recipes.json';
 import './Recipe.css';
 import House from '../components/House';
 import Sidebar from '../components/Sidebar';
-import Steps from '../components/Steps';
 
 function Recipe(){
 
