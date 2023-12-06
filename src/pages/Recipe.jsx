@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import values from '../recipes.json';
 import './Recipe.css';
 import House from '../components/House';
@@ -7,6 +7,7 @@ import Sidebar from '../components/Sidebar';
 
 function Recipe(){
 
+    const navigate = useNavigate();
     const params = useParams();
     const urlparam = params;
     params.name = (params.name).replace('%20', ' ');
@@ -74,11 +75,22 @@ function Recipe(){
         allSteps = "None"
     };
 
+    function handleClick() {
+        console.log(localStorage.getItem("searchParam"))
+        var result = localStorage.getItem("searchParam");
+        console.log(result)
+        navigate(`/results/${result}`);
+    }
+
     return ( 
         <>
         <div className='recipe-info'>
         <House></House>
+        <button2 type="submit" onClick={handleClick} style={{ position: 'absolute', right: '175px'}}>
+                        Back to Search Results
+        </button2>
         <Sidebar></Sidebar>
+        <br></br>
         <h1>{title}</h1>
         <br></br>
         <p><h3>{description}</h3></p>

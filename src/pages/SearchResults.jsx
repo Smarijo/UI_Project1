@@ -10,6 +10,7 @@ function SearchResults(){
     const navigate = useNavigate();
     const params = useParams();
     const searchQuery = params.query;
+    localStorage.setItem("searchParam", searchQuery);
 
     function filterData(recipes, searchQuery) {
         return recipes.filter(item => item.name.toLowerCase().includes(searchQuery.toLowerCase()));
