@@ -4,6 +4,7 @@ import values from '../recipes.json';
 import './Recipe.css';
 import House from '../components/House';
 import Sidebar from '../components/Sidebar';
+import Steps from '../components/Steps';
 
 function Recipe(){
 
@@ -14,7 +15,7 @@ function Recipe(){
     var allergies = "";
     var cookTime = "";
     var allIngredients = "";
-    var allSteps = "";
+    var allSteps = [];
 
     for (let i = 0; i < values.length; i++) {
         if (values[i].name == params.name) {
@@ -65,14 +66,21 @@ function Recipe(){
 
     if (steps != []){
         for (let i = 0; i < steps.length; i++) {
-            allSteps += (steps[i].title + ":\n   " + steps[i].desc)
-            if (i != (steps.length-1)) {
-                allSteps += ('\n')
-            }
+            allSteps.push(
+                <>
+                <p4><i>{steps[i].title}:</i></p4>
+                <br></br>
+                <p4>{steps[i].desc}</p4>
+                <br></br>
+                <br></br>
+                </>
+            )
         }
     }
     else {
-        allSteps = "None"
+        allSteps.push(
+            <p4>None</p4>
+        )
     };
 
     function handleClick() {
@@ -84,7 +92,6 @@ function Recipe(){
 
     return ( 
         <>
-        <div className='recipe-info'>
         <House></House>
         <button2 type="submit" onClick={handleClick} style={{ position: 'fixed', right: '175px' }}>
                         Back to Search Results
@@ -93,10 +100,10 @@ function Recipe(){
         <br></br>
         <h1>{title}</h1>
         <br></br>
+        <div className='recipe-info' style={{ overflowX: 'hidden' }}>
         <p><h3>{description}</h3></p>
         <br></br>
         <img className="recipe-img" src={img_url} alt="" />
-        </div>
         <p>Time: {cookTime}</p>
         <p>Complexity: {complexity}</p>
         <div className='allergies'>
@@ -107,8 +114,10 @@ function Recipe(){
         <br></br>
         <p><b>Ingredients: </b></p><p3><pre>{allIngredients}</pre></p3>
         <br></br>
-        <p><b>Steps: </b></p><p4><pre>{allSteps}</pre></p4>
-        
+        <div style={{ width: '75%', marginLeft: 'auto', marginRight: 'auto', alignItems: 'left' }}>
+        <p><b>Steps: </b></p>{allSteps}
+        </div>
+        </div>
         </>
       );
   }
