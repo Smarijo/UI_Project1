@@ -86,7 +86,7 @@ function Recipe(){
         <>
         <div className='recipe-info'>
         <House></House>
-        <button2 type="submit" onClick={handleClick} style={{ position: 'absolute', right: '175px'}}>
+        <button2 type="submit" onClick={handleClick} style={{ position: 'fixed', right: '175px' }}>
                         Back to Search Results
         </button2>
         <Sidebar></Sidebar>
