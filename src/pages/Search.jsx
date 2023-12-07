@@ -1,7 +1,6 @@
 import SearchBar from "../components/SearchBar";
 import Title from "../components/Title";
 import Sidebar from "../components/Sidebar";
-import  from "../components/";
 
 function Search(){
 
