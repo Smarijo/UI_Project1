@@ -10,26 +10,26 @@ function SearchResults() {
     const params = useParams();
     const searchQuery = params.query;
     localStorage.setItem("searchParam", searchQuery);
-    var complex = ""
+    // var complex = ""
 
     // console.log(recipes)
 
-    function filterData(recipes, searchQuery, complexity) {
+    function filterData(recipes, searchQuery) {
         // console.log(recipes)
-        if (searchQuery != "") {
+        // if (searchQuery != "") {
             recipes = recipes.filter(item => item.name.toLowerCase().includes(searchQuery.toLowerCase()));
             // console.log(item)
             // console.log(recipes)
-        }
-        if (complexity != "") {
-            recipes = recipes.filter(item => item.info.complexity.includes(complex.toLowerCase()));
-            console.log(recipes)
-        }
+        // }
+        // if (complexity != "") {
+        //     recipes = recipes.filter(item => item.info.complexity.includes(complex.toLowerCase()));
+        //     console.log(recipes)
+        // }
 
         return recipes
     };
 
-    let filteredData = filterData(recipes, searchQuery, "");
+    let filteredData = filterData(recipes, searchQuery);
 
     function handleClick() {
         navigate("/search");

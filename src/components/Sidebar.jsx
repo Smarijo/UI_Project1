@@ -11,6 +11,9 @@ export default props => {
       <a className="menu-item" href="/search">
         Search
       </a>
+      <a className="menu-item" href="/profiles">
+        Profiles
+      </a>
       {/* <a className="menu-item" href="/history">
         History
       </a>

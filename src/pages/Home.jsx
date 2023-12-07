@@ -1,9 +1,9 @@
 import Title from "../components/Title";
 import HomeText from "../components/HomeText";
-import SearchBar from "../components/SearchBar";
 import Sidebar from "../components/Sidebar";
 import { useNavigate, Link } from 'react-router-dom';
 import values from '../recipes.json';
+import ProfileButton from "../components/ProfileButton";
 
 function Home() {
 
@@ -13,12 +13,11 @@ function Home() {
     navigate("/search");
   }
 
-  // let ata = filterData(recipes, searchQuery);
-
   return (
     <>
       <div className="Home" id="outer-container">
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+        <ProfileButton />
       </div>
       <div>
         <br></br>

@@ -5,7 +5,8 @@ import SearchResults from './pages/SearchResults'
 import RecipeResult from './pages/RecipeResult'
 import Recipe from "./pages/Recipe";
 import FilterButton from './components/FilterButton'
-
+import Profiles from "./pages/Profiles";
+import RecHome from "./pages/RecHome";
 
 function App(){
   
@@ -16,10 +17,13 @@ function App(){
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/profiles" element={<Profiles />} />
           <Route path="/results/:query" element={<SearchResults />} />
           <Route path="/results/:query/:filter1" element={<FilterButton />} />
           <Route path="/results/recipe/:name" element={<RecipeResult />} />
           <Route path="/recipe/:name" element={<Recipe />} />
+          <Route path="/profiles/:profile/home" element={<RecHome />} />
+          <Route path="/profiles" element={<Profiles />} />
         </Routes>
       </BrowserRouter>
     </div>
