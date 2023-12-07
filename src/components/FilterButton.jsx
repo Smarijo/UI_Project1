@@ -77,7 +77,7 @@ function FilterButton() {
                         <br></br>
                         <p><b>Search results for {params.query}:</b></p>
                         <br></br>
-                        <p>Filters: Choose one complexity and/or one time amount</p>
+                        <p>Filters: Choose one complexity at a time</p>
                         <br></br>
                         <div style={{ display: 'flex', marginLeft: 'auto', marginRight: 'auto' }}>
                             <button4 type="submit" onClick={handleSimpleClick} style={{ border: 'solid', borderColor: '#058576', backgroundColor: "#FFFFFF" }}>
@@ -143,7 +143,7 @@ function FilterButton() {
                         <br></br>
                         <p><b>Search results for {params.query}:</b></p>
                         <br></br>
-                        <p>Filters: Choose one complexity and/or one time amount</p>
+                        <p>Filters: Choose one complexity at a time</p>
                         <br></br>
                         <div style={{ display: 'flex', marginLeft: 'auto', marginRight: 'auto' }}>
                             <button4 type="submit" onClick={handleSimpleIntClick} >
@@ -209,7 +209,7 @@ function FilterButton() {
                         <br></br>
                         <p><b>Search results for {params.query}:</b></p>
                         <br></br>
-                        <p>Filters: Choose one complexity and/or one time amount</p>
+                        <p>Filters: Choose one complexity at a time</p>
                         <br></br>
                         <div style={{ display: 'flex', marginLeft: 'auto', marginRight: 'auto' }}>
                             <button4 type="submit" onClick={handleSimpleDiffClick}>
