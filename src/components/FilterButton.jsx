@@ -3,7 +3,6 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import Title from "../components/Title";
 import Sidebar from "../components/Sidebar";
 import '../pages/SearchResults.css'
-import House from "../components/House";
 import recipes from '../recipes.json';
 
 function FilterButton() {
@@ -68,7 +67,7 @@ function FilterButton() {
                         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     </div>
                     <div>
-                        <House></House>
+                        
                         <br></br>
                         <Title> </Title>
                         <br></br>
@@ -134,7 +133,7 @@ function FilterButton() {
                         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     </div>
                     <div>
-                        <House></House>
+                        
                         <br></br>
                         <Title> </Title>
                         <br></br>
@@ -200,7 +199,7 @@ function FilterButton() {
                         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     </div>
                     <div>
-                        <House></House>
+                        
                         <br></br>
                         <Title> </Title>
                         <br></br>
@@ -256,7 +255,7 @@ function FilterButton() {
                         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     </div>
                     <div>
-                        <House></House>
+                        
                         <br></br>
                         <Title> </Title>
                         <br></br>

@@ -3,9 +3,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import Title from "../components/Title";
 import Sidebar from "../components/Sidebar";
 import './SearchResults.css'
-import House from "../components/House";
 import recipes from '../recipes.json';
-// import FilterButton from '../components/FilterButton';
 
 function SearchResults() {
     const navigate = useNavigate();
@@ -67,7 +65,7 @@ function SearchResults() {
                 <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
             </div>
             <div>
-                <House></House>
+                
                 <br></br>
                 <Title> </Title>
                 <br></br>

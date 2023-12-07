@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import values from '../recipes.json';
 import './Recipe.css';
-import House from '../components/House';
+
 import Sidebar from '../components/Sidebar';
 
 function Recipe(){
@@ -91,7 +91,7 @@ function Recipe(){
 
     return ( 
         <>
-        <House></House>
+        
         {/* <button2 type="submit" onClick={handleClick} style={{ position: 'fixed', right: '175px' }}>
                         Back to Search Results
         </button2> */}

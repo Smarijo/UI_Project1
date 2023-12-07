@@ -1,7 +1,7 @@
 import SearchBar from "../components/SearchBar";
 import Title from "../components/Title";
 import Sidebar from "../components/Sidebar";
-import House from "../components/House";
+import  from "../components/";
 
 function Search(){
 
@@ -11,7 +11,7 @@ function Search(){
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
         </div>
           <div>
-            <House></House>
+            
             <br></br>
             <Title> </Title> 
             <br></br>
