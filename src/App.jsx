@@ -4,6 +4,7 @@ import Search from './pages/Search'
 import SearchResults from './pages/SearchResults'
 import RecipeResult from './pages/RecipeResult'
 import Recipe from "./pages/Recipe";
+import FilterButton from './components/FilterButton'
 
 
 function App(){
@@ -16,6 +17,7 @@ function App(){
           <Route path="/home" element={<Home />} />
           <Route path="/search" element={<Search />} />
           <Route path="/results/:query" element={<SearchResults />} />
+          <Route path="/results/:query/:filter1" element={<FilterButton />} />
           <Route path="/results/recipe/:name" element={<RecipeResult />} />
           <Route path="/recipe/:name" element={<Recipe />} />
         </Routes>
