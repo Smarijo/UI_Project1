@@ -2,18 +2,15 @@ import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import values from '../recipes.json';
 import './Recipe.css';
-
 import Sidebar from '../components/Sidebar';
 
 function Recipe(){
 
-    const navigate = useNavigate();
     const params = useParams();
-    const urlparam = params;
     params.name = (params.name).replace('%20', ' ');
     var allergies = "";
     var cookTime = "";
-    var allIngredients = "";
+    var allIngredients = [];
     var allSteps = [];
 
     for (let i = 0; i < values.length; i++) {
@@ -42,15 +39,22 @@ function Recipe(){
     };
 
     if (ingredients != []){
+    
         for (let i = 0; i < ingredients.length; i++) {
-            allIngredients += ("- " + ingredients[i])
-            if (i != (ingredients.length-1)) {
-                allIngredients += ('\n')
-            }
+            
+            allIngredients.push(
+                <>
+                <p4>- {ingredients[i]}</p4>
+                <br></br>
+                <br></br>
+                </>
+            )
         }
     }
     else {
-        allIngredients = "None"
+        allIngredients.push(
+            <p4>None</p4>
+        )
     };
 
     if (time = 1) {
@@ -82,19 +86,8 @@ function Recipe(){
         )
     };
 
-    function handleClick() {
-        console.log(localStorage.getItem("searchParam"))
-        var result = localStorage.getItem("searchParam");
-        console.log(result)
-        navigate(`/results/${result}`);
-    }
-
     return ( 
         <>
-        
-        {/* <button2 type="submit" onClick={handleClick} style={{ position: 'fixed', right: '175px' }}>
-                        Back to Search Results
-        </button2> */}
         <Sidebar></Sidebar>
         <br></br>
         <h1>{title}</h1>
@@ -107,11 +100,13 @@ function Recipe(){
         <p>Complexity: {complexity}</p>
         <div className='allergies'>
             <br></br>
-            <p3><b>Allergens: {allergies}</b></p3>
+            <p3><b style={{ color: 'red' }}>Allergens: {allergies}</b></p3>
             <br></br>
         </div>
         <br></br>
-        <p><b>Ingredients: </b></p><p3><pre>{allIngredients}</pre></p3>
+        <div style={{ width: '30%', marginLeft: 'auto', marginRight: 'auto', alignItems: 'left' }}>
+        <p><b>Ingredients: </b></p>{allIngredients}
+        </div>
         <br></br>
         <div style={{ width: '75%', marginLeft: 'auto', marginRight: 'auto', alignItems: 'left' }}>
         <p><b>Steps: </b></p>{allSteps}

@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import values from '../recipes.json';
 import './Recipe.css';
-
-import Sidebar from '../components/Sidebar';
 import Recipe from '../pages/Recipe';
 
 function RecipeResult(){
@@ -13,9 +10,7 @@ function RecipeResult(){
     params.name = (params.name).replace('%20', ' ');
 
     function handleClick() {
-        console.log(localStorage.getItem("searchParam"))
         var result = localStorage.getItem("searchParam");
-        console.log(result)
         navigate(`/results/${result}`);
     }
 
