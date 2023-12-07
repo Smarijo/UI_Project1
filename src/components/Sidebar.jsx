@@ -13,14 +13,7 @@ export default props => {
       </a>
       <a className="menu-item" href="/profiles">
         Profiles
-      </a>
-      {/* <a className="menu-item" href="/history">
-        History
-      </a>
-      <a className="menu-item" href="/favorites">
-        Favorites
-      </a> */}
-      
+      </a>      
     </Menu>
   );
 };

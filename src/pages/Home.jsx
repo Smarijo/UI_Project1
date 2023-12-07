@@ -44,9 +44,9 @@ function Home() {
             </Link>
           ))}
           <br></br>
-        <br></br>
-        <br></br>
-        <p>Creator: Sara Marijolovic</p>
+          <br></br>
+          <br></br>
+          <p>Creator: Sara Marijolovic</p>
         </div>
       </div>
     </>

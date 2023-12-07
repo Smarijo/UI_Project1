@@ -2,23 +2,22 @@ import SearchBar from "../components/SearchBar";
 import Title from "../components/Title";
 import Sidebar from "../components/Sidebar";
 
-function Search(){
+function Search() {
 
-    return ( 
+  return (
     <>
       <div className="Search" id="outer-container">
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-        </div>
-          <div>
-            
-            <br></br>
-            <Title> </Title> 
-            <br></br>
-            <SearchBar></SearchBar>
-            <br></br>
-          </div>
+      </div>
+      <div>
+        <br></br>
+        <Title> </Title>
+        <br></br>
+        <SearchBar></SearchBar>
+        <br></br>
+      </div>
     </>
-    );
+  );
 }
 
 export default Search;

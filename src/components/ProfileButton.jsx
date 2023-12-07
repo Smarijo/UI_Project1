@@ -13,7 +13,7 @@ function ProfileButton() {
         <>
             <profile-button type="submit" onClick={handleClick}>
                 <IoPersonCircle />
-                </profile-button>
+            </profile-button>
         </>
     )
 };

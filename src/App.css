@@ -37,7 +37,7 @@ button {
   color: white;
   cursor: pointer;
   transition: border-color 0.25s;
-  /* justify-content: center; */
+ 
   position:absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -56,12 +56,9 @@ input {
   height: 2rem;
   width: 50em; 
   box-sizing: border-box;
-  /* padding: 5rem 100em; */
   outline-color: black;
-  /* color: rgb(141, 31, 31); */
   background-color: rgb(232, 232, 232);
   transition: 0.2s ease-in-out;
-  /* place-items: top;  */
   justify-content: center;
   align-items: center; 
   font-size: medium;

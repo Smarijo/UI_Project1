@@ -24,30 +24,6 @@ function FilterButton() {
         navigate("/search");
     }
 
-    // const handleSimpleClick = () => {
-    //     navigate(`/results/${searchQuery}/simple`);
-    // }
-
-    // const handleInterClick = () => {
-    //     navigate(`/results/${searchQuery}/intermediate`);
-    // }
-
-    // const handleDiffClick = () => {
-    //     navigate(`/results/${searchQuery}/difficult`);
-    // }
-
-    // const handleLT30Click = () => {
-    //     navigate(`/results/${searchQuery}/lessthan30min`);
-    // }
-
-    // const handle3060Click = () => {
-    //     navigate(`/results/${searchQuery}/30to60min`);
-    // }
-
-    // const handleGT60Click = () => {
-    //     navigate(`/results/${searchQuery}/morethan60min`);
-    // }
-
     switch (filter1) {
         case "simple":
             const handleSimpleClick = () => {
@@ -67,7 +43,7 @@ function FilterButton() {
                         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     </div>
                     <div>
-                        
+
                         <br></br>
                         <Title> </Title>
                         <br></br>
@@ -89,19 +65,8 @@ function FilterButton() {
                             <button4 type="submit" onClick={handleDiffClick}>
                                 Complexity: Difficult
                             </button4>
-                            {/* <button4 type="submit" onClick={handleLT30Click}>
-                            Time: less than 30 min
-                        </button4>
-                        <button4 type="submit" onClick={handle3060Click}>
-                            Time: 30-60 min
-                        </button4>
-                        <button4 type="submit" onClick={handleGT60Click}>
-                            Time: more than 60 min
-                        </button4> 
-                        */}
                         </div>
                     </div>
-                    {/* <FilterButton /> */}
                     <div className="container">
                         {filteredData?.map((item) => (
                             <Link to={`/results/recipe/${item.name}`}>
@@ -113,7 +78,6 @@ function FilterButton() {
                         ))}
                     </div>
                 </>
-
             );
         case "intermediate":
             const handleSimpleIntClick = () => {
@@ -133,7 +97,6 @@ function FilterButton() {
                         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     </div>
                     <div>
-                        
                         <br></br>
                         <Title> </Title>
                         <br></br>
@@ -155,16 +118,6 @@ function FilterButton() {
                             <button4 type="submit" onClick={handleDiffIntClick}>
                                 Complexity: Difficult
                             </button4>
-                            {/* <button4 type="submit" onClick={handleLT30Click}>
-                            Time: less than 30 min
-                        </button4>
-                        <button4 type="submit" onClick={handle3060Click}>
-                            Time: 30-60 min
-                        </button4>
-                        <button4 type="submit" onClick={handleGT60Click}>
-                            Time: more than 60 min
-                        </button4> 
-                        */}
                         </div>
                     </div>
                     {/* <FilterButton /> */}
@@ -179,7 +132,6 @@ function FilterButton() {
                         ))}
                     </div>
                 </>
-
             );
         case "difficult":
             const handleSimpleDiffClick = () => {
@@ -199,7 +151,6 @@ function FilterButton() {
                         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     </div>
                     <div>
-                        
                         <br></br>
                         <Title> </Title>
                         <br></br>
@@ -221,19 +172,8 @@ function FilterButton() {
                             <button4 type="submit" onClick={handleDiffDiffClick} style={{ border: 'solid', borderColor: '#058576', backgroundColor: "#FFFFFF" }}>
                                 <b style={{ color: '#058576' }}>Complexity: Difficult</b>
                             </button4>
-                            {/* <button4 type="submit" onClick={handleLT30Click}>
-                            Time: less than 30 min
-                        </button4>
-                        <button4 type="submit" onClick={handle3060Click}>
-                            Time: 30-60 min
-                        </button4>
-                        <button4 type="submit" onClick={handleGT60Click}>
-                            Time: more than 60 min
-                        </button4> 
-                        */}
                         </div>
                     </div>
-                    {/* <FilterButton /> */}
                     <div className="container">
                         {filteredData?.map((item) => (
                             <Link to={`/results/recipe/${item.name}`}>
@@ -245,7 +185,6 @@ function FilterButton() {
                         ))}
                     </div>
                 </>
-
             );
         default:
 
@@ -255,7 +194,6 @@ function FilterButton() {
                         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     </div>
                     <div>
-                        
                         <br></br>
                         <Title> </Title>
                         <br></br>
@@ -277,19 +215,8 @@ function FilterButton() {
                             <button4 type="submit" onClick={handleDiffClick}>
                                 Complexity: Difficult
                             </button4>
-                            {/* <button4 type="submit" onClick={handleLT30Click}>
-                    Time: less than 30 min
-                </button4>
-                <button4 type="submit" onClick={handle3060Click}>
-                    Time: 30-60 min
-                </button4>
-                <button4 type="submit" onClick={handleGT60Click}>
-                    Time: more than 60 min
-                </button4> 
-                */}
                         </div>
                     </div>
-                    {/* <FilterButton /> */}
                     <div className="container">
                         {filteredData?.map((item) => (
                             <Link to={`/results/recipe/${item.name}`}>
@@ -301,7 +228,6 @@ function FilterButton() {
                         ))}
                     </div>
                 </>
-
             );
     }
 }

@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import './Recipe.css';
 import Recipe from '../pages/Recipe';
 
-function RecipeResult(){
+function RecipeResult() {
 
     const navigate = useNavigate();
     const params = useParams();
@@ -14,14 +14,14 @@ function RecipeResult(){
         navigate(`/results/${result}`);
     }
 
-    return ( 
+    return (
         <>
-        <button2 type="submit" onClick={handleClick} >
-                        Back to Search Results
-        </button2>
-        <Recipe></Recipe>
+            <button2 type="submit" onClick={handleClick} >
+                Back to Search Results
+            </button2>
+            <Recipe></Recipe>
         </>
-      );
-  }
-  
-  export default RecipeResult;
+    );
+}
+
+export default RecipeResult;

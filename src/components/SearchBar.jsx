@@ -20,21 +20,21 @@ const SearchBar = () => {
       navigate(`/results/${params.query}`, { state: searchQuery, replace: true });
     }
   }
-  
-  
+
+
   return (
-    
+
     <form onSubmit={handleSearchSubmit}>
-        <input
-            type="text"
-            onChange={handleSearchInputChange}
-            placeholder="Search for recipes" 
-        />
-        <br></br>
-        <br></br>
-        <button type="submit">Search</button>
-        </form>
-    
+      <input
+        type="text"
+        onChange={handleSearchInputChange}
+        placeholder="Search for recipes"
+      />
+      <br></br>
+      <br></br>
+      <button type="submit">Search</button>
+    </form>
+
   );
 }
 
